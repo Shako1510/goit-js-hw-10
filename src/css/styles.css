@@ -7,7 +7,7 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background-color: bisque;
   color: #212121;
   line-height: 1.5;
 }
@@ -17,4 +17,27 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+.country-list {
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
+
+
+}
+
+.country-info {
+  width: 370px;
+  height: auto;
+
+}
+
+.fotoFlagSelected {
+  width: 100%;
+}
+
+.fotoFlagListCountry {
+  width: 100px;
+
 }
